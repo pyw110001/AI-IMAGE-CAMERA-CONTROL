@@ -1,0 +1,5 @@
+{
+  "name": "Gemini 3D Camera Booth",
+  "description": "Upload an image and control the camera angle to re-shoot the subject using Gemini 3 Pro Image Preview.",
+  "requestFramePermissions": []
+}
