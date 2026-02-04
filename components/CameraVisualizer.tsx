@@ -32,7 +32,7 @@ const CameraVisualizer: React.FC<CameraVisualizerProps> = ({ params, onUpdate, i
   // Camera View Configuration (The "Editor" Camera)
   const viewPitch = 20 * Math.PI / 180; // Slightly looking down
   const viewYaw = 45 * Math.PI / 180;   // Isometric-ish
-  const scaleFactor = 200; // Scale for the widget
+  const scaleFactor = 130; // Scale for the widget
 
   // 3D Point -> 2D Screen Projection
   const project = (x: number, y: number, z: number) => {
